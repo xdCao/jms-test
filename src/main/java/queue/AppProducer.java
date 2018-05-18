@@ -7,7 +7,7 @@ import javax.jms.*;
 public class AppProducer {
 
 
-    private static final String url="tcp://127.0.0.l:61616";
+    private static final String url="tcp://localhost:61616";
 
     private static final String queueName="queue-test";
 
