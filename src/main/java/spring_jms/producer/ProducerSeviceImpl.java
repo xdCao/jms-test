@@ -13,7 +13,7 @@ public class ProducerSeviceImpl implements ProducerService {
     @Autowired
     private JmsTemplate jmsTemplate;
 
-    @Resource(name = "queueDestination")
+    @Resource(name = "topicDestination")
     private Destination destination;
 
     public void sendMessage(final String message){
